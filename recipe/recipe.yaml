@@ -1,5 +1,5 @@
 context:
-  version: "0.2.1"
+  version: "0.2.2"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/computational-cell-analytics/bioimage-py/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 2de5d4daab9b3ba1bc9d886adf3dc82b6e176352d4047f02316e5cea8e762130
+  sha256: 6220072efc6ffb6f5c266a2320773779ebb6c7a2f94170cbb61c503059be3f3a
 
 build:
   noarch: python
